@@ -4,6 +4,9 @@
   .bg-hero-bg {
     background-image: url('/images/homebg.png');
   }
+  .bg-about-bg {
+    background-image: url('/images/aboutBg.png');
+  }
     .oluchi-bg {
     background-image: url('/images/oluchi1.png');
   }

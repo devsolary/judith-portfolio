@@ -2,7 +2,9 @@
 
 const Education = () => {
   return (
-    <div>Education</div>
+    <div className="h-screen bg-about-bg">
+      
+    </div>
   )
 }
 
