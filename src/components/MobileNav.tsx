@@ -23,7 +23,7 @@ const MobileNav = () => {
                 <Link to="/about">ABOUT ME</Link>
                 <Link to="/education">EDUCATION</Link>
                 <Link to="/experience">EXPERIENCE</Link>
-                <Link to="/project">PROJECT</Link>
+                <Link to="/projects">PROJECT</Link>
                 <Link to="/contact">CONTACT</Link>
             </ul>
         </div>)
