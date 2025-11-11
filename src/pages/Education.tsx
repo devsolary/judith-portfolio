@@ -22,7 +22,7 @@ const Education = () => {
 
   return (
     <motion.div
-      className="h-screen bg-about-bg pt-32 px-2 lg:px-[5vw]"
+      className="h-full bg-about-bg pt-32 pb-8 px-2 lg:px-[5vw]"
       initial="hidden"
       animate="visible"
       variants={container}

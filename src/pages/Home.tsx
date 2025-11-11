@@ -24,7 +24,7 @@ const Home = () => {
 
   return (
     <motion.div
-      className="h-screen bg-hero-bg bg-cover bg-no-repeat flex flex-col justify-center w-full md:overflow-hidden md:pl-18 lg:justify-start"
+      className="h-screen bg-hero-bg bg-cover bg-no-repeat flex flex-col justify-center overflow-y-scroll w-full md:overflow-hidden md:pl-18 lg:justify-start"
       initial="hidden"
       animate="visible"
       variants={container}

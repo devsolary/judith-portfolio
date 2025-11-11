@@ -22,7 +22,7 @@ const Experiences = () => {
 
   return (
     <motion.div
-      className="h-screen bg-about-bg pt-24 lg:px-[5vw]"
+      className="h-full bg-about-bg pb-10 pt-24 lg:px-[5vw]"
       initial="hidden"
       animate="visible"
       variants={container}
