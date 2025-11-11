@@ -24,7 +24,7 @@ const AboutMe = () => {
               always eager to learn and apply my skills to solve real-world
               problems.
             </p>
-                    <div className="md:flex md:flex-row sm:hidden">
+                    <div className="md:flex md:flex-row hidden">
           <div className="text-white md:flex md:flex-col  md:py-5">
             <h1 className="md:text-4xl  md:font-bold font-league">Skills & Interest</h1>
             <ul className="flex space-x-5 pt-5 md:text-2xl md:mr-5">
@@ -83,7 +83,7 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
-                  <div className="ml-5 flex flex-row items-center ">
+                  <div className="ml-5 lg:flex lg:flex-row items-center hidden">
       <div className="w-[15px] h-[15px] bg-white rounded-full"></div><div className=" border-b-4 border-white w-[70vw] mr-5"></div><p className="text-3xl text-white">PORTFOLIO 2026</p>
       </div>
 

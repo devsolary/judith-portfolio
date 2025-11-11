@@ -29,7 +29,7 @@ const Education = () => {
           </div>
         </div>
       </div>
-          <div className="ml-5 flex flex-row items-center ">
+          <div className="ml-5 lg:flex flex-row items-center hidden">
       <div className="w-[15px] h-[15px] bg-white rounded-full"></div><div className=" border-b-4 border-white w-[70vw] mr-5"></div><p className="text-3xl text-white">PORTFOLIO 2026</p>
       </div>
     </div>

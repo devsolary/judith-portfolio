@@ -53,7 +53,7 @@ const Contact = () => {
           <p className="text-white text-[7px] lg:text-2xl"> @YUNGJUDDI</p>
         </div>
       </div>
-      <div className="items-center flex flex-col mt-24">
+      <div className="items-center lg:flex lg:flex-col mt-24 hidden">
         <div className="ml-5 lg:flex lg:flex-row items-center sm:hidden lg:wwhitespace-nowrap mt-">
           <div className="w-[15px] h-[15px] bg-white rounded-full"></div>
           <div className=" border-b-4 border-white w-[70vw]"></div>

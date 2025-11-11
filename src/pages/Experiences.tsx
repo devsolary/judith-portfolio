@@ -17,7 +17,7 @@ const Experiences = () => {
             <p className="lg:text-2xl">Data analyst 2022-2024</p>
           </div>
           <div>
-            <p className="py-4 lg:text-xl w-[40vw]">
+            <p className="py-4 lg:text-xl lg:w-[40vw]">
               Analyzed and interpreted complex datasets to provide actionable
               insights, optimized data management processes, and supported
               strategic decision making. Leveraged tools and techniques to
@@ -32,7 +32,7 @@ const Experiences = () => {
             <p className="lg:text-2xl">online-freelancer 2023-2024</p>
           </div>
           <div>
-            <p className="pt-4  lg:text-xl w-[40vw]">
+            <p className="pt-4  lg:text-xl lg:w-[40vw]">
               Successfully completed diverse projects in data entry, Python
               backend development, 3D modeling, and animations. Delivered
               high-quality solutions tailored to client needs, consistently
@@ -42,7 +42,7 @@ const Experiences = () => {
           </div>
         </div>
       </div>
-                        <div className="ml-5 flex flex-row items-center mt-[25vh]">
+                        <div className="ml-5 lg:flex lg:flex-row items-center mt-[25vh] hidden">
       <div className="w-[15px] h-[15px] bg-white rounded-full"></div><div className=" border-b-4 border-white w-[70vw] mr-5"></div><p className="text-3xl text-white">PORTFOLIO 2026</p>
       </div>
     </div>
