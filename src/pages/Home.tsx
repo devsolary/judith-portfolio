@@ -39,7 +39,7 @@ const Home = () => {
         </motion.p>
 
         <motion.p
-          className="text-[#d9d9d9] text-4xl font-extrabold md:font-bold md:text-6xl md:w-[30vw] font-league"
+          className="text-[#d9d9d9] text-4xl font-extrabold md:font-bold md:text-6xl md:w-[30vw] font-league lg:text-4xl"
           variants={item}
         >
           I'm Nwonumara Judith oluchi
