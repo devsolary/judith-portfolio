@@ -22,7 +22,7 @@ const Experiences = () => {
 
   return (
     <motion.div
-      className="h-full bg-about-bg pb-10 pt-24 lg:px-[5vw]"
+      className="h-full bg-about-bg pb-10 pt-24 md:px-[5vw] md:h-screen"
       initial="hidden"
       animate="visible"
       variants={container}
@@ -87,11 +87,13 @@ const Experiences = () => {
         </motion.div>
       </motion.div>
 
-      {/* Bottom line */}
-      <motion.div className="ml-5 lg:flex lg:flex-row items-center mt-[25vh] hidden" variants={item}>
+      <motion.div
+        className="md:flex md:flex-row items-center hidden mt-[10vh]"
+        variants={item}
+      >
         <div className="w-[15px] h-[15px] bg-white rounded-full"></div>
         <div className="border-b-4 border-white w-[70vw] mr-5"></div>
-        <p className="text-3xl text-white">PORTFOLIO 2026</p>
+        <p className="text-xl text-white font-mono lg:text-2xl whitespace-nowrap">PORTFOLIO 2026</p>
       </motion.div>
     </motion.div>
   );

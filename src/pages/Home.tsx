@@ -24,29 +24,29 @@ const Home = () => {
 
   return (
     <motion.div
-      className="h-screen bg-hero-bg bg-cover bg-no-repeat flex flex-col justify-center overflow-y-scroll w-full md:overflow-hidden md:pl-18 lg:justify-start"
+      className="h-screen bg-hero-bg bg-cover bg-no-repeat flex flex-col justify-center overflow-y-scroll w-full md:overflow-hidden md:mt-0 md:px-5"
       initial="hidden"
       animate="visible"
       variants={container}
     >
       {/* ✅ Floating intro text */}
       <motion.div
-        className="w-full mt-[10vh] flex flex-col justify-center text-center md:absolute md:z-10 md:w-[40vw] md:text-left md:ml-12 md:mt-[25vh]"
+        className="w-full mt-[0vh] flex flex-col justify-center text-center md:z-10 md:w-[40vw] md:text-left md:ml-12 md:mt-8"
         variants={container}
       >
-        <motion.p className="text-[#38b6ff] md:text-[20px] font-mono" variants={item}>
+        <motion.p className="text-[#38b6ff] md:text-[10px] font-mono lg:text-2xl" variants={item}>
           Hello !!!
         </motion.p>
 
         <motion.p
-          className="text-[#d9d9d9] text-4xl font-extrabold md:font-bold md:text-6xl md:w-[30vw] font-league lg:text-4xl"
+          className="text-[#d9d9d9] text-4xl font-extrabold md:font-bold md:text-2xl md:w-[30vw] font-league lg:text-6xl"
           variants={item}
         >
           I'm Nwonumara Judith oluchi
         </motion.p>
 
         <motion.p
-          className="p-1 bg-[#38b6ff] text-[10px] text-center justify-center mx-24 font-bold border-2 md:text-sm md:w-[20vw] md:mx-0 lg:text-left font-league"
+          className="p-1 bg-[#38b6ff] text-[10px] text-center justify-center mx-24 font-bold border-2 md:text-[10px] md:w-[20vw] md:mx-0 lg:text-left font-league"
           variants={item}
         >
           PYTHON BACKEND DEVELOPER
@@ -54,9 +54,9 @@ const Home = () => {
       </motion.div>
 
       {/* ✅ Description + images */}
-      <div className="relative mt-10">
+      <div className="relative mt-10 ">
         <motion.p
-          className="absolute text-white w-[65vw] text-[12px] mt-5 md:text-[25px] md:w-[40vw] md:z-20 md:mt-[45vh] lg:flex lg:flex-col font-mono"
+          className="absolute text-white w-[65vw] text-[12px] mt-5 md:text-[20px] md:flex md:w-[60vw] md:z-20 md:mt-0 font-mono lg:text-3xl"
           variants={item}
         >
           Driven by a passion for creativity, technology, and precision, I bring expertise 
@@ -68,26 +68,26 @@ const Home = () => {
         <motion.img
           src={oluchi}
           alt=""
-          className="md:w-[100vw] md:z-0 md:h-[90vh] md:hidden"
+          className="md:hidden"
           variants={item}
         />
 
         <motion.img
           src={oluchiPlain}
           alt=""
-          className="absolute md:w-[40vw] md:z-0 md:h-[80vh] right-0 lg:mt-[5vh] hidden lg:flex"
+          className="md:w-[40vw] md:z-0 md:h-[40vh] ml-[60vw] hidden md:flex"
           variants={item}
         />
       </div>
 
       {/* ✅ Bottom section */}
       <motion.div
-        className="mt-[88vh] lg:flex lg:flex-row items-center hidden"
+        className="md:flex md:flex-row items-center hidden mt-[10vh]"
         variants={item}
       >
         <div className="w-[15px] h-[15px] bg-white rounded-full"></div>
         <div className="border-b-4 border-white w-[70vw] mr-5"></div>
-        <p className="text-3xl text-white font-mono">PORTFOLIO 2026</p>
+        <p className="text-xl text-white font-mono lg:text-4xl">PORTFOLIO 2026</p>
       </motion.div>
     </motion.div>
   );

@@ -10,8 +10,8 @@ const Header = () => {
     <div className="absolute px-4 py-4 flex flex-row w-[100vw] ">
       <motion.button
   whileHover={{ scale: 1.1 }}
-  whileTap={{ scale: 0.95 }}><Link to="/" className="p-1 bg-[#38b6ff] text-black font-bold lg:text-3xl font-mono">JUDITH OLUCHI</Link></motion.button>
-      <div className='ml-auto w-[50vw] lg:ml-[5vw]'>
+  whileTap={{ scale: 0.95 }}><Link to="/" className="p-1 bg-[#38b6ff] text-black font-bold md:text-xl font-mono lg:text-3xl">JUDITH OLUCHI</Link></motion.button>
+      <div className='ml-auto w-[50vw] md:ml-5'>
         {isMobile ? <MobileNav /> : <DesktopNav />}
       </div>
     </div>

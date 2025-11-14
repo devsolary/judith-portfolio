@@ -28,7 +28,7 @@ const DesktopNav = () => {
       variants={containerVariants}
     >
       <motion.ul
-        className="flex flex-row space-x-[5vw] text-white text-[10px] z-10 lg:text-[20px] w-full items-center whitespace-nowrap font-mono"
+        className="flex flex-row space-x-[5vw] text-white text-[10px] z-10 md:text-[12px] lg:text-3xl w-full items-center whitespace-nowrap font-mono"
         variants={containerVariants}
       >
         <motion.li variants={itemVariants}><Link to="/about">ABOUT ME</Link></motion.li>
@@ -42,7 +42,7 @@ const DesktopNav = () => {
           className="flex flex-row items-center"
           variants={itemVariants}
         >
-          <div className="border-b-4 border-white w-[20vw]"></div>
+          <div className="border-b-4 border-white w-[10vw]"></div>
           <div className="w-[15px] h-[15px] bg-white rounded-full"></div>
         </motion.li>
       </motion.ul>

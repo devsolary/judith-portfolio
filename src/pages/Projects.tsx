@@ -36,14 +36,14 @@ const Projects = () => {
   };
 
   return (
-    <div className="h-screen bg-about-bg pt-24 overflow-y-scroll pb-12 lg:px-[5vw]">
+    <div className="h-screen bg-about-bg pt-24 overflow-y-scroll pb-12 md:px-[5vw]">
       <div className="text-white font-bold border-b-8 w-42 border-blue-600 lg:text-5xl lg:whitespace-nowrap lg:w-fit lg:pb-5">
         SELECTED PROJECTS
       </div>
 
       <motion.div
         ref={scrollRef}
-        className="lg:flex lg:flex-row lg:overflow-x-auto gap-x-32 lg:whitespace-nowrap no-scrollbar overflow-y-scroll"
+        className="md:flex md:flex-row md:overflow-x-auto gap-x-32 lg:whitespace-nowrap no-scrollbar overflow-y-scroll"
         style={{ scrollBehavior: "smooth" }}
         initial="hidden"
         animate="visible"
@@ -52,20 +52,20 @@ const Projects = () => {
         {projects.map((project, index) => (
           <motion.div
             key={index}
-            className="mt-12 lg:flex-shrink-0 lg:w-[30vw]"
+            className="mt-12 md:flex-shrink-0 md:w-[30vw]"
             variants={item}
           >
             <div>
               <img
                 src={project.img}
                 alt="project img"
-                className="h-[20vh] w-[30vh] mt-3 lg:w-[20vw] lg:h-[20vw]"
+                className="h-[20vh] w-[30vh] mt-3 md:w-[20vw] md:h-[20vw]"
               />
               <div>
                 <h1 className="font-bold text-white lg:text-4xl font-league">
                   {project.project}
                 </h1>
-                <p className="text-white whitespace-normal lg:text-2xl">
+                <p className="text-white whitespace-normal md:text-sm">
                   {project.description}
                 </p>
               </div>
@@ -73,12 +73,13 @@ const Projects = () => {
           </motion.div>
         ))}
       </motion.div>
-
-      {/* Bottom line */}
-      <motion.div className="ml-5 lg:flex lg:flex-row items-center hidden">
+      <motion.div
+        className="md:flex md:flex-row items-center hidden mt-[10vh]"
+        variants={item}
+      >
         <div className="w-[15px] h-[15px] bg-white rounded-full"></div>
         <div className="border-b-4 border-white w-[70vw] mr-5"></div>
-        <p className="text-3xl text-white">PORTFOLIO 2026</p>
+        <p className="text-xl text-white font-mono md:text-sm md:whitespace-nowrap">PORTFOLIO 2026</p>
       </motion.div>
     </div>
   );

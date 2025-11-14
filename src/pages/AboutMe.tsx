@@ -23,7 +23,7 @@ const AboutMe = () => {
 
   return (
     <motion.div
-      className="h-screen bg-about-bg bg-cover bg-no-repeat pt-32 md:overflow-hidden md:pt-16"
+      className="h-screen bg-about-bg bg-cover bg-no-repeat pt-32 md:overflow-hidden md:pt-32"
       initial="hidden"
       animate="visible"
       variants={container}
@@ -33,20 +33,20 @@ const AboutMe = () => {
           <motion.img
             src={aboutImg}
             alt=""
-            className="h-[250px] md:px-12 lg:h-[70vh] lg:mt-10"
+            className="h-[250px] md:px-12 md:h-[60vh] lg:mt-10"
             variants={item}
           />
 
-          <motion.div className="px-2 md:w-[40vw] md:ml-28 white" variants={item}>
+          <motion.div className="px-2 md:w-[40vw] white" variants={item}>
             <motion.h1
-              className="text-white font-extrabold text-center border-b-4 border-blue-500 md:w-32 md:pb-2 lg:text-4xl lg:whitespace-nowrap lg:mt-[10vh] lg:py-[5vh] lg:mb-16 font-league"
+              className="text-white font-extrabold text-center border-b-4 border-blue-500 md:w-32 md:pb-2 md:text-2xl md:whitespace-nowrap lg:mt-[10vh] lg:py-[5vh] lg:mb-16 font-league"
               variants={item}
             >
               MY BIOGRAPHY
             </motion.h1>
 
             <motion.p
-              className="text-white text-[10px] md:font-semibold md:text-2xl font-mono"
+              className="text-white text-[10px] md:font-semibold md:text-sm font-mono"
               variants={item}
             >
               I am a Python backend developer and robotics enthusiast currently
@@ -136,10 +136,13 @@ const AboutMe = () => {
       </motion.div>
 
       {/* Bottom line */}
-      <motion.div className="ml-5 lg:flex lg:flex-row items-center hidden" variants={item}>
+      <motion.div
+        className="md:flex md:flex-row items-center hidden mt-[10vh]"
+        variants={item}
+      >
         <div className="w-[15px] h-[15px] bg-white rounded-full"></div>
         <div className="border-b-4 border-white w-[70vw] mr-5"></div>
-        <p className="text-3xl text-white">PORTFOLIO 2026</p>
+        <p className="text-xl text-white font-mono lg:text-4xl">PORTFOLIO 2026</p>
       </motion.div>
     </motion.div>
   );
