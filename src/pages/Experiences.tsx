@@ -29,10 +29,10 @@ const Experiences = () => {
     >
       {/* Header */}
       <motion.div
-        className="flex text-white justify-center content-center pb-12 lg:justify-start lg:mb-[5vh]"
+        className="flex text-white justify-center content-center pb-12 lg:justify-start lg:mb-[]"
         variants={item}
       >
-        <h1 className="font-extrabold text-xl mr-12 border-b-4 border-blue-500 lg:text-5xl lg:pb-8 lg:border-b-8">
+        <h1 className="font-extrabold text-xl mr-12 border-b-4 border-blue-500 lg:text-3xl  lg:border-b-8">
           EXPERIENCE
         </h1>
         <h1
@@ -50,14 +50,14 @@ const Experiences = () => {
       <motion.div className="" variants={container}>
         {/* First experience */}
         <motion.div className="text-white lg:flex lg:flex-row mb-12" variants={item}>
-          <div className="lg:mr-[5vw]">
-            <p className="font-bold text-xl lg:text-3xl lg:whitespace-nowrap font-mono">
+          <div className="lg:mr-[7vw]">
+            <p className="font-bold text-xl lg:text-xl lg:whitespace-nowrap font-mono lg:pt-5 2xl:text-3xl">
               Luc-thad group of companies
             </p>
-            <p className="lg:text-2xl">Data analyst 2022-2024</p>
+            <p className="lg:text-xl">Data analyst 2022-2024</p>
           </div>
           <div>
-            <p className="py-4 lg:text-xl lg:w-[40vw]">
+            <p className="py-4 lg:text-[15px] lg:w-[40vw] 2xl:text-2xl">
               Analyzed and interpreted complex datasets to provide actionable
               insights, optimized data management processes, and supported
               strategic decision making. Leveraged tools and techniques to
@@ -70,13 +70,13 @@ const Experiences = () => {
         {/* Second experience */}
         <motion.div className="text-white lg:flex lg:flex-row mb-12" variants={item}>
           <div className="lg:mr-[11vw]">
-            <p className="font-bold text-xl lg:text-3xl lg:whitespace-nowrap font-mono">
+            <p className="font-bold text-xl lg:text-xl lg:whitespace-nowrap font-mono 2xl:text-2xl">
               Upwork
             </p>
-            <p className="lg:text-2xl">Online Freelancer 2023-2024</p>
+            <p className="lg:text-xl">Online Freelancer 2023-2024</p>
           </div>
           <div>
-            <p className="pt-4 lg:text-xl lg:w-[40vw]">
+            <p className="pt-4 lg:text-[15px] lg:w-[40vw] 2xl:ml-32 2xl:text-2xl">
               Successfully completed diverse projects in data entry, Python
               backend development, 3D modeling, and animations. Delivered
               high-quality solutions tailored to client needs, consistently
@@ -88,12 +88,12 @@ const Experiences = () => {
       </motion.div>
 
       <motion.div
-        className="md:flex md:flex-row items-center hidden mt-[10vh]"
+        className="md:flex md:flex-row items-center hidden mt-[20vh]"
         variants={item}
       >
         <div className="w-[15px] h-[15px] bg-white rounded-full"></div>
         <div className="border-b-4 border-white w-[70vw] mr-5"></div>
-        <p className="text-xl text-white font-mono lg:text-2xl whitespace-nowrap">PORTFOLIO 2026</p>
+        <p className="text-xl text-white font-mono lg:text-2xl whitespace-nowrap 2xl:text-4xl">PORTFOLIO 2026</p>
       </motion.div>
     </motion.div>
   );

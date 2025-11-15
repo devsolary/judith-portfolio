@@ -30,14 +30,14 @@ const Education = () => {
       <motion.div className="lg:flex lg:flex-row" variants={container}>
         {/* Left section */}
         <motion.div
-          className="text-white lg:w-[35vw] lg:mt-[20vh] lg:mb-[15vh]"
+          className="text-white lg:w-[35vw] lg:mb-[]"
           variants={item}
         >
-          <h1 className="font-extrabold border-b-8 border-blue-400 w-[30vw] pb-2 lg:text-3xl lg:w-fit lg:py-5">
+          <h1 className="font-extrabold border-b-8 border-blue-400 w-[30vw] pb-2 lg:text-3xl lg:w-fit lg:py-5 2xl:text-5xl">
             <span className="font-league">EDUCATION</span>
           </h1>
 
-          <p className="lg:text-2xl mt-5 font-mono">
+          <p className="lg:text-xl mt-5 font-mono 2xl:text-2xl 2xl:mt-24">
             Currently studying Computer Engineering at Lagos State University, I
             developed strong organizational and data management skills as
             Assistant Head Girl in high school and Vice President of the Jet
@@ -50,7 +50,7 @@ const Education = () => {
 
         {/* Right section */}
         <motion.div className="text-white mt-6" variants={item}>
-          <h1 className="text-4xl font-extrabold lg:text-8xl [text-shadow:3px_3px_0_white] text-black font-league">
+          <h1 className="text-4xl font-extrabold lg:text-6xl [text-shadow:3px_3px_0_white] text-black font-league">
             2024-TILL DATE
           </h1>
 
@@ -73,12 +73,12 @@ const Education = () => {
       </motion.div>
 
       <motion.div
-        className="md:flex md:flex-row items-center hidden mt-[10vh]"
+        className="md:flex md:flex-row items-center hidden mt-[20vh]"
         variants={item}
       >
         <div className="w-[15px] h-[15px] bg-white rounded-full"></div>
         <div className="border-b-4 border-white w-[70vw] mr-5"></div>
-        <p className="text-xl text-white font-mono lg:text-4xl">PORTFOLIO 2026</p>
+        <p className="text-xl text-white font-mono lg:text-xl 2xl:text-4xl">PORTFOLIO 2026</p>
       </motion.div>
     </motion.div>
   );

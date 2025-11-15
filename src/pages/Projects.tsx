@@ -62,7 +62,7 @@ const Projects = () => {
                 className="h-[20vh] w-[30vh] mt-3 md:w-[20vw] md:h-[20vw]"
               />
               <div>
-                <h1 className="font-bold text-white lg:text-4xl font-league">
+                <h1 className="font-bold text-white lg:text-xl font-league">
                   {project.project}
                 </h1>
                 <p className="text-white whitespace-normal md:text-sm">
@@ -79,7 +79,7 @@ const Projects = () => {
       >
         <div className="w-[15px] h-[15px] bg-white rounded-full"></div>
         <div className="border-b-4 border-white w-[70vw] mr-5"></div>
-        <p className="text-xl text-white font-mono md:text-sm md:whitespace-nowrap">PORTFOLIO 2026</p>
+        <p className="text-xl text-white font-mono md:text-sm md:whitespace-nowrap 2xl:text-4xl">PORTFOLIO 2026</p>
       </motion.div>
     </div>
   );

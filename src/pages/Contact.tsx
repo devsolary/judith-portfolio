@@ -29,29 +29,29 @@ const Contact = () => {
       </motion.div>
 
       {/* Contact cards */}
-      <motion.div className="flex pt-24 w-[80vw] md:flex md:flex-row md:items-center md:w-full md:pl-[15vw]" variants={container}>
+      <motion.div className="flex pt-24 w-[80vw] md:flex md:flex-row md:items-center md:w-full md:pl-[15vw] lg:pl-[8vw] 2xl:pl-[12vw]" variants={container}>
         <motion.div className="text-center flex flex-col mr-[3vw]" variants={item}>
-          <MdPhoneInTalk className="text-blue-600 text-4xl lg:text-9xl w-full" />
-          <h1 className="font-bold text-white text-[7px] lg:text-3xl">Phone & Mobile</h1>
-          <p className="text-white text-[7px] lg:text-2xl">09011564610 +234 913 709 7380</p>
+          <MdPhoneInTalk className="text-blue-600 text-4xl lg:text-6xl w-full 2xl:text-9xl" />
+          <h1 className="font-bold text-white text-[7px] lg:text-sm lg:whitespace-nowrap 2xl:text-xl">Phone & Mobile</h1>
+          <p className="text-white text-[7px] lg:text-sm 2xl:text-xl">09011564610 +234 913 709 7380</p>
         </motion.div>
 
         <motion.div className="text-center flex flex-col mr-[3vw]" variants={item}>
-          <MdAttachEmail className="text-blue-600 text-4xl lg:text-9xl w-full" />
-          <h1 className="font-bold text-white text-[7px] lg:text-3xl">Email & Website</h1>
-          <p className="text-white text-[7px] lg:text-2xl">oluchijudith990@gmail.com</p>
+          <MdAttachEmail className="text-blue-600 text-4xl lg:text-6xl w-full 2xl:text-9xl" />
+          <h1 className="font-bold text-white text-[7px] lg:text-sm lg:whitespace-nowrap 2xl:text-xl">Email & Website</h1>
+          <p className="text-white text-[7px] lg:text-sm 2xl:text-xl">oluchijudith990@gmail.com</p>
         </motion.div>
 
         <motion.div className="text-center flex flex-col mr-[3vw]" variants={item}>
-          <FaLocationDot className="text-blue-600 text-4xl lg:text-9xl w-full" />
-          <h1 className="font-bold text-white text-[7px] lg:text-3xl">Address</h1>
-          <p className="text-white text-[7px] lg:text-2xl">58, Ago Palace Way</p>
+          <FaLocationDot className="text-blue-600 text-4xl lg:text-6xl w-full 2xl:text-9xl" />
+          <h1 className="font-bold text-white text-[7px] lg:text-sm lg:whitespace-nowrap 2xl:text-xl">Address</h1>
+          <p className="text-white text-[7px] lg:text-sm 2xl:text-xl">58, Ago Palace Way</p>
         </motion.div>
 
         <motion.div className="text-center flex flex-col" variants={item}>
-          <FaInstagramSquare className="text-blue-600 text-4xl lg:text-9xl w-full" />
-          <h1 className="font-bold text-white text-[7px] lg:text-3xl">Instagram</h1>
-          <p className="text-white text-[7px] lg:text-2xl">@YUNGJUDDI</p>
+          <FaInstagramSquare className="text-blue-600 text-4xl lg:text-6xl w-full 2xl:text-9xl" />
+          <h1 className="font-bold text-white text-[7px] lg:text-sm lg:whitespace-nowrap 2xl:text-xl">Instagram</h1>
+          <p className="text-white text-[7px] lg:text-sm 2xl:text-xl">@YUNGJUDDI</p>
         </motion.div>
       </motion.div>
 
@@ -64,13 +64,12 @@ const Contact = () => {
         </div>
 
         <motion.p
-          className="text-white md:text-6xl font-bold whitespace-nowrap"
+          className="text-white md:text-6xl font-bold whitespace-nowrap 2xl:text-9xl"
           style={{ color: "transparent", WebkitTextStroke: "1px white" }}
           variants={item}
         >
           JUDITH OLUCHUKWU
         </motion.p>
-
         <motion.div className="ml-5 flex flex-row items-center" variants={item}>
           <div className="w-[15px] h-[15px] bg-white rounded-full"></div>
           <div className="border-b-4 border-white w-[30vw] mr-5"></div>

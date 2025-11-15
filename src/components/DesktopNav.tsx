@@ -28,7 +28,7 @@ const DesktopNav = () => {
       variants={containerVariants}
     >
       <motion.ul
-        className="flex flex-row space-x-[5vw] text-white text-[10px] z-10 md:text-[12px] lg:text-3xl w-full items-center whitespace-nowrap font-mono"
+        className="flex flex-row space-x-[5vw] text-white text-[10px] z-10 md:text-[12px] lg:text-[15px]  w-full items-center whitespace-nowrap font-mono 2xl:text-2xl"
         variants={containerVariants}
       >
         <motion.li variants={itemVariants}><Link to="/about">ABOUT ME</Link></motion.li>
